@@ -1,0 +1,42 @@
+{"log_id":1,"event":"logout","user_id":2,"timestamp":"2023-06-01 00:00:00"}
+{"log_id":2,"event":"view","user_id":1,"timestamp":"2023-06-01 12:00:00"}
+{"log_id":3,"event":"purchase","user_id":4,"timestamp":"2023-06-02 00:00:00"}
+{"log_id":4,"event":"purchase","user_id":2,"timestamp":"2023-06-02 12:00:00"}
+{"log_id":5,"event":"purchase","user_id":3,"timestamp":"2023-06-03 00:00:00"}
+{"log_id":6,"event":"view","user_id":4,"timestamp":"2023-06-03 12:00:00"}
+{"log_id":7,"event":"logout","user_id":5,"timestamp":"2023-06-04 00:00:00"}
+{"log_id":8,"event":"logout","user_id":1,"timestamp":"2023-06-04 12:00:00"}
+{"log_id":9,"event":"view","user_id":5,"timestamp":"2023-06-05 00:00:00"}
+{"log_id":10,"event":"purchase","user_id":4,"timestamp":"2023-06-05 12:00:00"}
+{"log_id":11,"event":"purchase","user_id":4,"timestamp":"2023-06-06 00:00:00"}
+{"log_id":12,"event":"logout","user_id":4,"timestamp":"2023-06-06 12:00:00"}
+{"log_id":13,"event":"purchase","user_id":5,"timestamp":"2023-06-07 00:00:00"}
+{"log_id":14,"event":"login","user_id":4,"timestamp":"2023-06-07 12:00:00"}
+{"log_id":15,"event":"logout","user_id":5,"timestamp":"2023-06-08 00:00:00"}
+{"log_id":16,"event":"purchase","user_id":4,"timestamp":"2023-06-08 12:00:00"}
+{"log_id":17,"event":"logout","user_id":3,"timestamp":"2023-06-09 00:00:00"}
+{"log_id":18,"event":"login","user_id":4,"timestamp":"2023-06-09 12:00:00"}
+{"log_id":19,"event":"logout","user_id":5,"timestamp":"2023-06-10 00:00:00"}
+{"log_id":20,"event":"logout","user_id":2,"timestamp":"2023-06-10 12:00:00"}
+2025-08-10 20:13:17,503 - INFO - ETL Job Started
+2025-08-10 20:13:17,620 - INFO - Data extracted successfully.
+2025-08-10 20:13:17,623 - ERROR - Transformation failed: 'customer_id'
+2025-08-10 20:13:17,623 - ERROR - Loading failed: 'customer_id'
+2025-08-10 20:17:10,854 - INFO - ETL Job Started
+2025-08-10 20:17:10,876 - ERROR - Extraction failed: [Errno 2] No such file or directory: 'sales_data.csv'
+2025-08-10 20:17:10,876 - ERROR - Transformation failed: [Errno 2] No such file or directory: 'sales_data.csv'
+2025-08-10 20:17:10,876 - ERROR - Loading failed: [Errno 2] No such file or directory: 'sales_data.csv'
+2025-08-10 20:18:47,107 - INFO - ETL Job Started
+2025-08-10 20:18:47,142 - ERROR - Loading failed: (1049, "Unknown database 'etl_demo'")
+2025-08-10 20:19:33,448 - INFO - ETL Job Started
+2025-08-10 20:19:33,491 - INFO - Data extracted successfully.
+2025-08-10 20:19:33,524 - INFO - Data transformed successfully.
+2025-08-10 20:19:33,757 - ERROR - Loading failed: 'name'
+2025-08-10 20:20:48,199 - INFO - ETL Job Started
+2025-08-10 20:20:48,219 - INFO - Data extracted successfully.
+2025-08-10 20:20:48,222 - INFO - Data transformed successfully.
+2025-08-10 20:20:48,259 - ERROR - Loading failed: 'customer_name'
+2025-08-10 20:22:39,362 - INFO - ETL Job Started
+2025-08-10 20:22:39,378 - INFO - Data extracted successfully.
+2025-08-10 20:22:39,382 - INFO - Data transformed successfully.
+2025-08-10 20:22:39,385 - ERROR - Loading failed: 'customer_name'

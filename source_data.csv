@@ -1,0 +1,11 @@
+user_id,full_name,email_address,signup_date,last_login_date,total_orders
+1,John Doe,john.doe@example.com,2023-01-15,2024-07-10,5
+2,Jane Smith,jane.smith@example.com,2023-02-20,2024-07-11,12
+3,Peter Jones,,2023-03-05,2024-06-30,3
+4,Mary Brown,mary.brown@example.com,2023-04-11,2024-07-05,
+5,chris green,chris.green@example.com,2023-05-19,2024-07-12,8
+6,Sarah White,sarah.white@example.com,2023-06-21,2024-07-01,2
+7,David Black,david.black@invalid,2023-07-30,2024-07-09,7
+8,Emily Blue,emily.blue@example.com,2023-08-14,2024-07-11,15
+9,Michael Gold,michael.gold@example.com,2023-09-01,2024-07-12,
+10,Laura Silver,laura.silver@example.com,2023-10-10,2024-07-08,4

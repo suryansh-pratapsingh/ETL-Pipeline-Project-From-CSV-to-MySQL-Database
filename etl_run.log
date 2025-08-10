@@ -1,0 +1,16 @@
+2025-08-10 21:25:49,352 - INFO - =============================================
+2025-08-10 21:25:49,353 - INFO - ========= Starting ETL Process =========
+2025-08-10 21:25:49,353 - INFO - =============================================
+2025-08-10 21:25:49,354 - INFO - Starting data extraction from source_data.csv...
+2025-08-10 21:25:49,375 - INFO - Successfully extracted 10 rows of data.
+2025-08-10 21:25:49,375 - INFO - Starting data transformation...
+2025-08-10 21:25:49,403 - INFO - Handled missing values.
+2025-08-10 21:25:49,417 - INFO - Converted date columns to datetime format.
+2025-08-10 21:25:49,420 - INFO - Formatted 'full_name' to title case.
+2025-08-10 21:25:49,425 - INFO - Data transformation complete. Final dataset has 9 rows.
+2025-08-10 21:25:49,426 - INFO - Starting to load data into MySQL table 'users'...
+2025-08-10 21:25:50,207 - INFO - Successfully loaded 9 rows into 'users'.
+2025-08-10 21:25:50,208 - INFO - ETL Process Completed Successfully.
+2025-08-10 21:25:50,208 - INFO - =============================================
+2025-08-10 21:25:50,208 - INFO - ========== ETL Process Finished ==========
+2025-08-10 21:25:50,209 - INFO - =============================================
