@@ -1,7 +1,7 @@
 # ETL Pipeline Project: From CSV to MySQL Database
 
 **Course:** Data Engineering Fundamentals  
-**Student:** [Your Name Here]  
+**Student:** [Suryansh Pratap Singh]  
 **Date:** August 10, 2025
 
 ---
