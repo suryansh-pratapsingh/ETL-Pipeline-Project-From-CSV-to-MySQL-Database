@@ -76,6 +76,7 @@ Ensure you have Python and MySQL Server installed.
 
 Install the required Python libraries using pip:
 
+Bash
 pip install pandas sqlalchemy mysql-connector-python
 Step 3: Database Setup
 Connect to your MySQL instance and create the target database:
@@ -107,13 +108,13 @@ Upon successful execution, the script will log its progress to both the console 
 Screenshot 1: Successful Console Output
 The terminal output confirms that each stage of the ETL process completed without errors.
 
-(sss.PNG)
+([sss.PNG](https://github.com/suryansh-pratapsingh/ETL-Pipeline-Project-From-CSV-to-MySQL-Database/blob/main/sss.PNG))
 
 
 Screenshot 2: Data Verification in Database
 The cleaned data can be verified by connecting to the etl_project database and querying the users table. The table contains 9 rows of validated data, reflecting the transformations applied (e.g., no invalid emails, capitalized names).
 
-(Capture.PNG)
+([Capture.PNG](https://github.com/suryansh-pratapsingh/ETL-Pipeline-Project-From-CSV-to-MySQL-Database/blob/main/Capture.PNG))
 
 
 This confirms the successful completion of the ETL pipeline, moving data from a raw source file to a clean, structured database table, ready for analysis
