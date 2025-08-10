@@ -107,13 +107,13 @@ Upon successful execution, the script will log its progress to both the console 
 Screenshot 1: Successful Console Output
 The terminal output confirms that each stage of the ETL process completed without errors.
 
-(Replace the block below with your actual screenshot)
+(sss.PNG)
 
 
 Screenshot 2: Data Verification in Database
 The cleaned data can be verified by connecting to the etl_project database and querying the users table. The table contains 9 rows of validated data, reflecting the transformations applied (e.g., no invalid emails, capitalized names).
 
-(Replace the block below with your actual screenshot from DBeaver, MySQL Workbench, etc.)
+(Capture.PNG)
 
 
 This confirms the successful completion of the ETL pipeline, moving data from a raw source file to a clean, structured database table, ready for analysis
