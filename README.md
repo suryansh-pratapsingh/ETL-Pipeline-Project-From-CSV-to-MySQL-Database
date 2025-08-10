@@ -44,7 +44,8 @@ The pipeline follows the standard three-stage ETL process:
 
 The project is organized into modular scripts for clarity and separation of concerns:
 
-/ETL-Project/
+/ETL-Project/   
+
 ├── source_data.csv     # The raw source data file.  
 
 ├── config.py           # Stores database credentials (Excluded from version control).   
