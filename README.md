@@ -75,7 +75,7 @@ Ensure you have Python and MySQL Server installed.
 ### **Step 2: Install Dependencies**
 
 Install the required Python libraries using pip:
-```bash
+
 pip install pandas sqlalchemy mysql-connector-python
 Step 3: Database Setup
 Connect to your MySQL instance and create the target database:
