@@ -45,13 +45,20 @@ The pipeline follows the standard three-stage ETL process:
 The project is organized into modular scripts for clarity and separation of concerns:
 
 /ETL-Project/
-├── source_data.csv     # The raw source data file.
-├── config.py           # Stores database credentials (Excluded from version control).
-├── extract.py          # Contains the data extraction logic.
-├── transform.py        # Contains all data cleaning and transformation logic.
-├── load.py             # Contains the logic for loading data into MySQL.
-├── main_etl.py         # The main driver script that orchestrates the pipeline.
-└── etl_run.log         # Log file generated after each run.
+├── source_data.csv     # The raw source data file.  
+
+├── config.py           # Stores database credentials (Excluded from version control).   
+
+├── extract.py          # Contains the data extraction logic.   
+
+├── transform.py        # Contains all data cleaning and transformation logic.   
+
+├── load.py             # Contains the logic for loading data into MySQL.    
+
+├── main_etl.py         # The main driver script that orchestrates the pipeline.   
+   
+└── etl_run.log         # Log file generated after each run.   
+
 
 
 ---
